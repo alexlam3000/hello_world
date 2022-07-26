@@ -6,9 +6,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     print('Hi')
-    iNumber = 2 + 6
-    print('Number: ' + str(iNumber))
-      
+    iNumber = 999
+    #print('Number: ' + str(iNumber))
     return 'Hello, World! ' + str(iNumber) 
 
 app.run(debug=True)
